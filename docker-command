@@ -1,0 +1,22 @@
+Docker all commands 
+
+1.docker ps / docker ps -a > show list of container 
+2.docker run (image name) > pull image from docker hub 
+3.docker run -d -p 80:80 (image id) > create container and run on that port
+4.docker images > shows images
+5.docker rmi (image id) > remove image
+6.docker build -t (file name) > build image from file
+7.docker rm (container id) > remove container
+8.docker start (container id) > start container
+9.docker stop (container id) > stop container
+10.docker image prune > remove unused images 
+11.docker container prune > remove stop container 
+12.docker volume create (name) > create volume
+13.docker volume ls > list docker volume
+14.docker volume inspect (name) > show detailed info about volume
+15.docker volume rm (name) > delete volume
+16.docker network create (name) > create default bridge network
+17.docker network create --driver = (bridge type) (network name) > create network with specific type of network driver
+18.docker network ls > list the network
+19.docker network inspect (network name) > show detailed info about that netowrk
+20.docker network rm (name) > remove network
